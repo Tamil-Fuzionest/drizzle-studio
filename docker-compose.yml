@@ -4,6 +4,6 @@ services:
   drizzle-studio:
     build: .
     environment:
-      DATABASE_URL: postgres://aiagent:Zy8r%401LpQmVw@host.docker.internal:5432/obl-aiagent-new
+      DATABASE_URL: postgres://your-username:your-password@localhost:5432/your-database
     ports:
       - "4983:4983"
