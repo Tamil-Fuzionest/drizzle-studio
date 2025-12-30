@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  drizzle-studio:
+    build: .
+    environment:
+      DATABASE_URL: postgres://aiagent:Zy8r%401LpQmVw@host.docker.internal:5432/obl-aiagent-new
+    ports:
+      - "4983:4983"

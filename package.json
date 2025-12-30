@@ -1,0 +1,11 @@
+{
+  "name": "drizzle-studio",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "drizzle-kit": "latest",
+    "drizzle-orm": "latest",
+    "pg": "latest"
+  }
+}
+
